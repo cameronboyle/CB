@@ -1,0 +1,77 @@
+/* jScrollPane */
+.jspContainer {
+	overflow: hidden;
+	position: relative;
+}
+
+	.jspPane {
+		position: absolute;
+	}
+
+	.jspVerticalBar {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 12px;
+		height: 100%;
+		background: red;
+	}
+
+
+	.jspVerticalBar * {
+		margin: 0;
+		padding: 0;
+	}
+
+	.jspCap {
+		display: none;
+	}
+
+	.jspTrack {
+		background: #ededed;
+		position: relative;
+	}
+
+	.jspDrag {
+		background: #ddd;
+		position: relative;
+		top: 0;
+		left: 0;
+		cursor: pointer;
+		transition: all 0.05s linear;
+		-webkit-transition: all 0.05s linear;
+		-moz-transition: all 0.05s linear;
+		-o-transition: all 0.05s linear;
+		-ms-transition: all 0.05s linear;
+	}
+	.jspHover,
+	.jspActive {
+		background: #ccc;
+	}
+
+	.jspArrow {
+		background: #50506d;
+		text-indent: -20000px;
+		display: block;
+		cursor: pointer;
+	}
+
+	.jspArrow.jspDisabled {
+		cursor: default;
+		background: #80808d;
+	}
+
+	.jspVerticalBar .jspArrow {
+		height: 16px;
+	}
+
+	.jspVerticalBar .jspArrow:focus {
+		outline: none;
+	}
+
+	.jspCorner {
+		background: #eeeef4;
+		float: left;
+		height: 100%;
+	}
+/* jScrollPane END */

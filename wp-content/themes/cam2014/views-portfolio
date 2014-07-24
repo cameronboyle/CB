@@ -1,0 +1,34 @@
+[wpv-layout-start]
+[wpv-posts-found]
+
+<div class="row">
+
+		<ul class="block-grid-3">
+		
+		
+		
+<!-- wpv-loop-start -->
+   <wpv-loop>
+      [wpv-if image="_thumbnail_id" evaluate="!empty($image)"]
+
+
+	
+   <li>
+				   		<span class="new-wrapper">
+						<a href="[wpv-post-url]">[wpv-post-featured-image size="portfolio-image"]
+                          <span class="new-wrapper2"><h5>[wpv-post-title]<small>[wpv-post-excerpt]</small></h5></span>
+						</a></span>
+   	</li>
+      					
+	
+
+[/wpv-if]
+   </wpv-loop>
+<!-- wpv-loop-end -->
+                 
+       
+     	</ul>
+
+	</div>
+                
+[/wpv-posts-found]
